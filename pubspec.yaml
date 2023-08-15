@@ -1,0 +1,69 @@
+name: news_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_webview_plugin: ^0.4.0
+  cached_network_image: ^3.2.3
+  http: ^0.13.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.9.3"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/launcher/ic_news_launcher.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "path/to/image.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "path/to/image.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "path/to/image.png"
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path : "assets/launcher/ic_news_launcher.png"
+  image_path_ios: "assets/launcher/ic_news_launcher.png"
+  image_path_android: "assets/launcher/ic_news_launcher.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/launcher/ic_news_launcher.png
+    - assets/images/top_news_new.png
+    - assets/images/business_news.png
+    - assets/images/entertainment_news.png
+    - assets/images/health_news.png
+    - assets/images/business_news_new.png
+    - assets/images/processing.gif
+    - assets/images/politics_news.png
+    - assets/images/science_news.png
+    - assets/images/sports_news.png
+    - assets/images/tech_news.png
+    - assets/images/top_news.png
